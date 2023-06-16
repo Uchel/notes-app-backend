@@ -3,3 +3,9 @@ Whops! Ada eror. Dari pesan eror tersebut menjelaskan bahwa berkas notes-api-web
 Solusinya, kita perlu mengubah permission pada berkas .pem tersebut. Silakan eksekusi perintah berikut (sesuaikan dengan sistem operasi yang Anda gunakan).
 
 chmod 400 notes-api-webserver.pem
+
+untuk memasang nvm 
+
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
+
+v19.9.0
