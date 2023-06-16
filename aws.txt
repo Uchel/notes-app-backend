@@ -1,0 +1,5 @@
+Whops! Ada eror. Dari pesan eror tersebut menjelaskan bahwa berkas notes-api-webserver.pem miliki permission yang terlalu terbuka. Ini tidak aman untuk digunakan sebagai kunci dalam mengakses EC2 instance.
+
+Solusinya, kita perlu mengubah permission pada berkas .pem tersebut. Silakan eksekusi perintah berikut (sesuaikan dengan sistem operasi yang Anda gunakan).
+
+chmod 400 notes-api-webserver.pem
